@@ -1,0 +1,26 @@
+{
+	"name": "hmsa",
+	"description": "بوت همسه",
+	"logo": "https://telegra.ph/file/bd0fde82d09f7681afc99.jpg",
+	"keywords": [
+		"telegram",
+		"bot",
+		"python",
+		"telethon"
+	],
+	"repository": "https://github.com/modymesourceze/hmsa",
+    "env": {
+        "ELHYBA": {
+            "description": "Your Telegram Bot Token from @BotFather",
+            "value": ""            
+	   }
+	},
+	"buildpacks": [
+		{
+			"url": "heroku/python"
+		}
+	]
+}
+
+
+
